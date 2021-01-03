@@ -1,5 +1,5 @@
 ## Giriş
-C# mysql select, insert ve update işlermleri
+C# Mysql select, insert ve update işlermleri, hata, yazım hatası görürseniz lütfen bildirin düzeltelim, iyi kullanımlar.
 
 - ##### Select işlemi
 
