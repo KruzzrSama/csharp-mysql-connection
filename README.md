@@ -47,3 +47,23 @@ Console.ReadLine();
 // Insert işlemi - son
 con.Close();
 ```
+
+- ##### Update işlemi
+
+```csharp
+public static string DataConfig = "server=localhost;database=denememysqlcsharp;uid=root;pwd=";
+
+MySqlConnection con = new MySqlConnection(MySQLConnection.DataConfig);
+con.Open();
+Console.WriteLine("Version: " + con.ServerVersion + "\n");
+// Update işlemi - database de varolan bir veriyi gerçek zamanlı değiştirmek için kullanılır.
+string newusername = "yeniad";
+int id = 1;
+
+MySqlCommand update = new MySqlCommand("UPDATE deneme_db SET db_username='" + newusername + "' WHERE id='"+ id +"'", con);
+update.ExecuteNonQuery();
+Console.WriteLine("Güncellendi");
+Console.ReadLine();
+// Update işlemi - son
+con.Close();
+```
