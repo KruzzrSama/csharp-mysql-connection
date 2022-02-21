@@ -1,5 +1,3 @@
-[![Arvision](https://cdn.discordapp.com/attachments/795066298295910420/817382739199787058/arvision-longtext.png "Arvision")](https://github.com/T3IM4N "Arvision")
-
 ## Giriş
 C# Mysql select, insert ve update işlermleri, hata, yazım hatası görürseniz lütfen bildirin düzeltelim, iyi kullanımlar.
 
